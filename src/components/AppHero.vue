@@ -13,7 +13,7 @@
    <jumbotron>
         <div id="jumbotron">
             <AppTitle></AppTitle>
-            <img src="../../img/7c29fa5a6267c7f1ac9e859ffd5bef80ac282556.jpeg" alt="">
+            <img src="/vite.svg" alt="">
         </div>
    </jumbotron>
 </template>
@@ -24,5 +24,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    img{
+        width: 500px;
     }
 </style>
